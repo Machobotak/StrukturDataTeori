@@ -32,3 +32,4 @@ public class Main {
         System.out.println(kota1.get(0));
     }
 }
+

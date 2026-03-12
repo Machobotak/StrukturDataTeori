@@ -12,16 +12,6 @@ public class SinglyLinkedList<E> {
     private Node<E> tail;
     private int size;
 
-    public void add(E data){
-        Node<E> newNode = new Node<>(data);
-        if(head == null){
-            head = tail = newNode;
-        }else {
-            newNode.next =  head;
-            head = newNode;
-        }
-        size++;
-    }
 
     public void addFirst(E data){
         Node<E> newNode = new Node<>(data);
