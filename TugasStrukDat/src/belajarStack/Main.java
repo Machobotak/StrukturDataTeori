@@ -1,6 +1,8 @@
+package belajarStack;
+
 public class Main {
     static void main() {
-        SinglyLinkedList<String> kota = new SinglyLinkedList<>();
+        /*belajarStack.SinglyLinkedList<String> kota = new belajarStack.SinglyLinkedList<>();
         kota.addFirst("Sangatta");
         kota.addLast("Bontang");
         kota.addLast("Samarinda");
@@ -16,7 +18,7 @@ public class Main {
         System.out.println(kota.get(1));
         System.out.println();
 
-        DoublyLinkedList<String> kota1 = new DoublyLinkedList<>();
+        belajarStack.DoublyLinkedList<String> kota1 = new belajarStack.DoublyLinkedList<>();
         kota1.addFirst("Balikpapan");
         kota1.addLast("Samarinda");
         kota1.addLast("Bontang");
@@ -30,6 +32,15 @@ public class Main {
         kota1.removeLast();
         kota1.print();
         System.out.println(kota1.get(0));
+         */
+
+        LinkedStack stack = new LinkedStack();
+        stack.push(10);
+        stack.push(20);
+        stack.push(30);
+
+        System.out.println(stack.top());
+
     }
 }
 
